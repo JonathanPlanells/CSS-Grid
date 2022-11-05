@@ -7,14 +7,14 @@
     "contenido"
     "footer";
     grid-template-columns: auto;
-    grid-template-rows: 50px auto auto;
+    grid-template-rows: 60px auto auto;
 }
 
 .encabezado {
     align-items: center;
     display: flex;
     grid-area: encabezado;
-    padding: 0 2rem;    
+    padding: 0 4rem;    
 }
 .menu__link{
     color: rgba(139, 85, 19, 0.641);
@@ -26,7 +26,8 @@
 }
 .contenido {
     grid-area: contenido;
-    padding: 0 2rem;
+    padding: 0rem 2rem;
+
 }
 
 .footer { 
